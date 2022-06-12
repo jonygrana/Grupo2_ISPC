@@ -18,8 +18,11 @@ Se consideran Artefacto a los elementos físicos que se producen como resultado 
 
 La pila del producto o producto backlog se compone por:
   US 1
+  
   US 2
+  
   US 3
+  
   US 4
 
 La pila de sprint o sprint backlog contiene:
