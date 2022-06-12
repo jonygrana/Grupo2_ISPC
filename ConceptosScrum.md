@@ -17,20 +17,24 @@ Estos tres roles de Scrum se requieren para crear el producto del proyecto, son 
 Se consideran Artefacto a los elementos físicos que se producen como resultado de la aplicación de Scrum. Los tres principales artefactos en la metodología Scrum son: producto backlog, sprint backlog, increment.
 
 La pila del producto o producto backlog se compone por:
-  US 1
-  
-  US 2
-  
-  US 3
-  
-  US 4
+  •	US 1
+
+  •	US 2
+
+  •	US 3
+
+  •	US 4
+
 
 La pila de sprint o sprint backlog contiene:
-  US 1
-  US 2
+  •	US 1
+
+  •	US 2
 
 Incremento o increment:
-  US 1
-  US 2
-  US sprint anterior
+  •	US 1
+
+  •	US 2
+  
+  •	US Sprint anterior
 
