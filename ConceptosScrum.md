@@ -67,8 +67,35 @@ Un software es un conjunto de herramientas o programas destinados a realizar una
 La documentacion refiere a:
 
   •la organización del sistema
+
   •documentos que expliquen como usar el software (manual de usuario)
+
   •sitios web que permitan a los usuarios descargar la información de actualizaciones del producto
 
 Software (IEE): parte de un sistema que se puede codificar para ejecutarse en una computadora como un conjunto de instrucciones. Incluye la documentacion asociada necesaria para comprender, transformar y usar esa solución.
-##continuara..##
+
+# Características de Software
+
+  •Es intangible.
+
+  •Tiene alto contenido Intelectual.
+
+  •Su proceso de desarrollo es 
+humano intensivo, basado en 
+equipos y construidos en 
+proyectos.
+
+  •Puede ser potencialmente 
+modificado, en forma 
+permanente. 
+
+  •El software no se manufactura, 
+se desarrolla.
+
+  •El software no se desgasta.
+
+  •A pesar de la tendencia de la 
+industria a desarrollar por 
+componentes, gran
+parte del software aún se 
+construye a medida.
