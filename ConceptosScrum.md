@@ -1,3 +1,16 @@
+# Asignación de Roles
+Produc Owner: Rocio Volpato
+Scrum Master: Jonatan Vivas
+Development Team:
+-Belen Pais
+-Emilia Garzón
+-Gonzalo Erreca
+-Hernan Sanchéz
+-Soledad Orrego Zapata
+-Mauro Poloni
+-Emanuel Sivila
+-Lucas Ortíz
+
 # Ceremonias 
 ### Ceremonias que se realizan a lo largo del proyecto:
 
