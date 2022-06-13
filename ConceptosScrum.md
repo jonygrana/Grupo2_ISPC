@@ -60,3 +60,15 @@ Incremento o increment:
   
   •	US Sprint anterior
 
+# Software
+
+Un software es un conjunto de herramientas o programas destinados a realizar una o varias funciones dentro del sistema. Son los programas los documentos asociados y la configuracion de datos.
+
+La documentacion refiere a:
+
+  •la organización del sistema
+  •documentos que expliquen como usar el software (manual de usuario)
+  •sitios web que permitan a los usuarios descargar la información de actualizaciones del producto
+
+Software (IEE): parte de un sistema que se puede codificar para ejecutarse en una computadora como un conjunto de instrucciones. Incluye la documentacion asociada necesaria para comprender, transformar y usar esa solución.
+##continuara..##
