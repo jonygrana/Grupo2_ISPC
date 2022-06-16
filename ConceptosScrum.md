@@ -112,3 +112,25 @@ industria a desarrollar por
 componentes, gran
 parte del software aún se 
 construye a medida.
+
+# Definicion de scrum
+
+Scrum (n): Es un marco de trabajo a través
+del cual las personas pueden abordar
+problemas complejos adaptativos, a la vez
+que se entregan productos de forma
+eficiente y creativa con el máximo valor.
+
+Scrum:
+
+● Es una enfoque ágil para la gestión de un proyecto. Más que una
+metodología o proceso, es un Marco de Trabajo.
+● Utiliza procesos interactivos/incrementales.
+● Orientado a resultados y compromisos.
+● No está restringido a proyectos de software solamente.
+● Su visión es opuesta a la propuesta por la metodología en
+cascada.
+
+Scrum = Requerimientos - Diseño - Código - Prueba
+
+Los equipos de Scrum hacen un poco de todo, todo el tiempo
