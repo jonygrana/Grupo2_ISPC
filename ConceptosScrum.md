@@ -138,3 +138,18 @@ Incremento o increment:
   
   •	US Sprint anterior
 
+# Conceptos de Agile
+
+Agile es un concepto de gestión de proyectos desarrollado para proporcionar a los gestores de proyectos una forma más flexible y eficiente de comercializar productos más rápido. El significado de Agile (ágil) es la capacidad de moverse rápida y fácilmente. Por lo tanto, un enfoque Agile permite a los equipos del proyecto adaptarse más rápido y con más facilidad en comparación con otras metodologías de proyecto. 
+
+Los cuatro pilares clave del libro Manifiesto Agile están diseñados para valorar:
+
+    • Personas e interacciones por encima de herramientas y procesos
+
+    • Software funcional por encima de documentación exhaustiva
+
+    • Colaboración con el cliente por encima de negociación contractual
+    
+    • Respuesta ante el cambio por encima de seguir un plan
+    
+Para definir Agile, el método se basa en el concepto de olas continuas o sprints de planificación y ejecución de proyectos, lo que te permite adaptar y desarrollar continuamente tu plan, alcance y diseño a lo largo del proyecto..
