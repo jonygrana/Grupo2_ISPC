@@ -143,12 +143,12 @@ Agile es un concepto de gestión de proyectos desarrollado para proporcionar a l
 
 Los cuatro pilares clave del libro Manifiesto Agile están diseñados para valorar:
 
-    • Personas e interacciones por encima de herramientas y procesos
+  • Personas e interacciones por encima de herramientas y procesos
 
-    • Software funcional por encima de documentación exhaustiva
+  • Software funcional por encima de documentación exhaustiva
 
-    • Colaboración con el cliente por encima de negociación contractual
+  • Colaboración con el cliente por encima de negociación contractual
     
-    • Respuesta ante el cambio por encima de seguir un plan
+  • Respuesta ante el cambio por encima de seguir un plan
     
 Para definir Agile, el método se basa en el concepto de olas continuas o sprints de planificación y ejecución de proyectos, lo que te permite adaptar y desarrollar continuamente tu plan, alcance y diseño a lo largo del proyecto..
