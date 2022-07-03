@@ -149,7 +149,7 @@ Los cuatro pilares clave del libro Manifiesto Agile están diseñados para valor
     • Software funcional por encima de documentación exhaustiva
 
     • Colaboración con el cliente por encima de negociación contractual
-    
+
     • Respuesta ante el cambio por encima de seguir un plan
     
-Para definir Agile, el método se basa en el concepto de olas continuas o sprints de planificación y ejecución de proyectos, lo que te permite adaptar y desarrollar continuamente tu plan, alcance y diseño a lo largo del proyecto..
+Para definir Agile, el método se basa en el concepto de olas continuas o sprints de planificación y ejecución de proyectos, lo que te permite adaptar y desarrollar continuamente tu plan, alcance y diseño a lo largo del proyecto.
