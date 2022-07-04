@@ -184,10 +184,10 @@ Este se refiere al grupo multidiciplinario de profesionales que se abocan al des
 
 Durante el 'sprint', cuando esta ya ha comenzado cada miembro ejerce su rol, asegurandose que se cumplan siempre las siguientes condiciones:
 
-  1) No se debe realizar cambios que pongan en riesgo el proyecto.
-  2) Que los estandares de calidad no se disminuyan.
-  3) El propietario del producto y el equipo de desarrollo deben trabajar conjuntamente ajustando cada detalle de las funcionalidades que se hayan planificado para el 'sprint'.
-  4) Todo el equipo debe  trabajar conjuntamente en la redefinición del proyecto, de tal manera que el producto owner como el equipo de desarrollo negocian entre ellos a medida que se va desarrollando y aprendiendo más.
+    1) No se debe realizar cambios que pongan en riesgo el proyecto.
+    2) Que los estandares de calidad no se disminuyan.
+    3) El propietario del producto y el equipo de desarrollo deben trabajar conjuntamente ajustando cada detalle de las funcionalidades que se hayan planificado para el 'sprint'.
+    4) Todo el equipo debe  trabajar conjuntamente en la redefinición del proyecto, de tal manera que el producto owner como el equipo de desarrollo negocian entre ellos a medida que se va desarrollando y aprendiendo más.
 
 ## Al finalizar
 
