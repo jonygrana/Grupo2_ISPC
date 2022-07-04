@@ -153,3 +153,51 @@ Los cuatro pilares clave del libro Manifiesto Agile están diseñados para valor
   • Respuesta ante el cambio por encima de seguir un plan
     
 Para definir Agile, el método se basa en el concepto de olas continuas o sprints de planificación y ejecución de proyectos, lo que te permite adaptar y desarrollar continuamente tu plan, alcance y diseño a lo largo del proyecto..
+
+# Sprint
+
+El corazón del ‘scrum’ es el ‘sprint’. Es decir se trata de un miniproyecto de no llega a superar un mes (ciclos de ejecuciones cortos -entre una y cuatro semanas), cuyo objetivo es conseguir un incremento de valor en el producto que se está construyendo. Todo ‘sprint’ cuenta con una definición y una planificación que ayudará a lograr las metas marcadas.
+
+Esta metodología es usada cada vez mas con frecuencia para el desarrollo de nuevos productos y servicios digitales, enmarcado por un equipo multidiciplinario que colaboran mutuamente en la creación o construcción del mismo de tal manera que este sea valioso en sus primeras versiones, siendo de esta manera un forma de entregas de valor rapidas y continuas, donde se van ampliando las funcionalidades en las entregas sucesivas.
+
+Como se dijo anteriormente estos equipos de Scrum trabajan en ciclos cortos de ejecución denominados Sprints.
+
+## El comienzo
+
+El primer paso para alcanzar el objetivo es una reunión de planificación, un espacio donde todo el equipo debe participar (lease Equipo Scrum). En esta reunión se debe dividir en dos partes que tratan de dar respuesta a dos simples preguntas y que son fundamentales para el proyecto: ¿Que es lo que se va a entregar? y ¿Que tareas estarán involucradas para la realización de dicho trabajo?.
+
+Luego cada miembro del equipo debe asumir responsabilidades definidas por la metodología 'Scrum' en función del rol que se desempeñarán tales como:
+
+* 'Scrum Master':
+
+Se centrará en como trabajará el equipo multifuncional. Su responsabilidad sera conseguir los valores y las prácticas de la metodología. Debe asistir a los miembros del equipo e incentivarlos para que trabajen de forma autónoma y autoorganizada, tratando también de solucionar los inconvenientes y obstáculos que puedan poner en riesgo el objetivo del 'sprint'.
+
+* 'Propietario del producto' (product owner): 
+
+Se centra directamente en el cliente y en lo que el equipo va a desarrollar. Su responsabidad será que el producto vaya incrementando su valoración en cada 'srpint' y marcar las metas de manera clara y en concordancia con el equipo.
+
+* 'Equipo de desarrollo':
+
+Este se refiere al grupo multidiciplinario de profesionales que se abocan al desarrollo del producto y su respectiva entrega en los tiempos predeterminados para asi poder incrementar el valor del mismo. Es un equipo que se autoorgniza para relizar dicho trabajo y han de estar disponible a tiempo completo al proyecto.
+
+## Durante el proceso
+
+Durante el 'sprint', cuando esta ya ha comenzado cada miembro ejerce su rol, asegurandose que se cumplan siempre las siguientes condiciones:
+
+  1) No se debe realizar cambios que pongan en riesgo el proyecto.
+  2) Que los estandares de calidad no se disminuyan.
+  3) El propietario del producto y el equipo de desarrollo deben trabajar conjuntamente ajustando cada detalle de las funcionalidades que se hayan planificado para el 'sprint'.
+  4) Todo el equipo debe  trabajar conjuntamente en la redefinición del proyecto, de tal manera que el producto owner como el equipo de desarrollo negocian entre ellos a medida que se va desarrollando y aprendiendo más.
+
+## Al finalizar
+
+Por consiguiente al final de cada 'sprint' se debe llevar a cabo una labor de inspección y revisión del trabajo realizado, en donde el product owner da un feedback al equipo. En esta reunión el propietario decide si se acepta o no como válida la funcionalidad o desarrollo realizado, y que la cual debe cumplir con las siguientes condiciones:
+
+    1) Los participantes deben ser el equipo de scrum y los interesados claves del proyecto.
+    2) Se identifica lo que se ha hecho y lo que no respecto a lo acordado inicialmente acordado.
+    3) Se informan los problemas detectados y se analiza como fueron resueltos.
+    4) Todo el equipo debe colaborar en el momento de decidir que hacer a continuación.
+
+Por ultimo se puede indicar que existe una sesión mas denominada retrospectiva donde se trata de una oportunidad par que el equipo comparta las impresiones y recomendaciones sobre la forma en la que se ha trabajado durante  el 'sprint' finalizado indicando las leccionaes aprendidas.
+
+Todas la 'metodologías ágiles' buscan mejorar de manera continua la forma en la que el equipo se relaciona durante el proceso de desarrollo, y es por ello que el srum es una metodología recomendable pero debe tenerse en cuenta que su duración no debe ser mayor al mes dado que es probable que despues de este tiempo la definición del proyecto que se esta construyendo cambie o aumente la complejidad del producto, y en consecuencia el riesgo de la no entrega o incumplimieento del requerimiento del cliente y producto esperado.
