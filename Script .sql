@@ -1,4 +1,4 @@
-CREATE DATABASE peluqueria_canina;
+CREATE DATABASE Peluqueria_canina;
 USE peluqueria_canina;
 
 
@@ -9,7 +9,7 @@ CREATE TABLE Dueno(
 DNI INT NOT NULL PRIMARY KEY,
 Nombre VARCHAR (30) NOT NULL,
 Apellido VARCHAR (30) NOT NULL,
-Telefono INT NOT NULL,
+Telefono BIGINT NOT NULL,
 Direccion VARCHAR (50) NOT NULL
 );
 
@@ -26,7 +26,7 @@ CREATE TABLE Historial(
 	ID_historial INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
     Fecha DATE,
     Perro INT,
-    Descripcion VARCHAR(255),
+    Descripcion VARCHAR(300),
     Monto INT,
     CONSTRAINT FOREIGN KEY (Perro) REFERENCES Perro (ID_perro)
 );
@@ -35,7 +35,7 @@ CREATE TABLE Historial(
 
 INSERT INTO Dueno (DNI, Nombre, Apellido, Telefono, Direccion) VALUES (30437103, "Gonzalo", "Fernandez",514279, "Junzal 633");
 INSERT INTO Dueno (DNI, Nombre, Apellido, Telefono, Direccion) VALUES (35961550, "Manuel", "Gomez",12564896, "Richieri 55");
-INSERT INTO Dueno (DNI, Nombre, Apellido, Telefono, Direccion) VALUES (41356542, "Laura", "Lopez",24635521, "Rivadavia 1265");
+INSERT INTO Dueno (DNI, Nombre, Apellido, Telefono, Direccion) VALUES (41356542, "Laura", "Lopez",2496321, "Rivadavia 1265");
 
 INSERT INTO Perro (ID_perro, Nombre, Fecha_nac, Sexo, DNI_dueno) VALUES (1, "Cartucho", "2011-02-17","Macho", 30437103);
 INSERT INTO Perro (ID_perro, Nombre, Fecha_nac, Sexo, DNI_dueno) VALUES (2,"Negro", "2021-02-12","Macho", 35961550);
@@ -48,3 +48,4 @@ INSERT INTO Perro (ID_perro, Nombre, Fecha_nac, Sexo, DNI_dueno) VALUES (6,"Emma
 
 SELECT * FROM perro WHERE sexo = "macho" AND 
 EXTRACT(year FROM fecha_nac) BETWEEN 2020 AND 2022;
+
