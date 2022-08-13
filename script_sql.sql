@@ -1,3 +1,9 @@
+# Realice la consulta correspondiente para crear la tabla Perro, teniendo en cuenta sus claves foráneas y primarias.
+
+# Inserte en la tabla correspondiente un nuevo animal (perro) como paciente y el dueño asociado a ese animal.
+
+# Actualice la fecha de nacimiento de algún animal (perro) que usted considere.
+
 create database Duenos_Perros;
 create table Duenos_Perros . Duenos(
 DNI int not null primary key,
