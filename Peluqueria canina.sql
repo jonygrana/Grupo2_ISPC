@@ -43,9 +43,13 @@ CREATE TABLE IF NOT EXISTS `PeluqueriaHuellitas`.`Perro` (
 ;
 
 -- -----------------------------------------------------
--- Ingreso de valores en Historial
+-- Ingreso de valores en Perro
 -- -----------------------------------------------------
+SELECT * FROM PeluqueriaHuellitas.Perro;
 
+INSERT INTO `PeluqueriaHuellitas`.`Perro` (`ID_Perro`, `nombre_Perro`, `fecha_NacPerro`, `sexo_Perro`, `DNI_Dueno`) VALUES ('1', 'Gilberto', '13/03/2021', 'macho', '33617400');
+INSERT INTO `PeluqueriaHuellitas`.`Perro` (`ID_Perro`, `nombre_Perro`, `fecha_NacPerro`, `sexo_Perro`, `DNI_Dueno`) VALUES ('2', 'Bruno', '30/01/2015', 'macho', '33617401');
+INSERT INTO `PeluqueriaHuellitas`.`Perro` (`ID_Perro`, `nombre_Perro`, `fecha_NacPerro`, `sexo_Perro`, `DNI_Dueno`) VALUES ('3', 'Antonia', '26/06/2017', 'hembra', '33617402');
 
 -- -----------------------------------------------------
 -- Table `PeluqueriaHuellitas`.`Historial`
