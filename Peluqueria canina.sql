@@ -15,7 +15,14 @@ CREATE TABLE IF NOT EXISTS `PeluqueriaHuellitas`.`Dueno` (
   `direccion_Du` LONGTEXT NULL,
   PRIMARY KEY (`DNI_Du`))
 ;
+-- -----------------------------------------------------
+-- Ingreso de valores en Dueno
+-- -----------------------------------------------------
 
+SELECT * FROM PeluqueriaHuellitas.Dueno;
+INSERT INTO `PeluqueriaHuellitas`.`Dueno` (`DNI_Du`, `nombre_Du`, `apellido_Du`, `telefono_Du`, `direccion_Du`) VALUES ('33617400', 'Emilia', 'Garzon', '3511', 'sarmiento 383');
+INSERT INTO `PeluqueriaHuellitas`.`Dueno` (`DNI_Du`, `nombre_Du`, `apellido_Du`, `telefono_Du`, `direccion_Du`) VALUES ('33617401', 'Regina', 'Suarez', '3512', 'rivadavia 56');
+INSERT INTO `PeluqueriaHuellitas`.`Dueno` (`DNI_Du`, `nombre_Du`, `apellido_Du`, `telefono_Du`, `direccion_Du`) VALUES ('33617402', 'Pablo', 'Diaz', '3513', 'nores martinez 2766');
 
 -- -----------------------------------------------------
 -- Table `PeluqueriaHuellitas`.`Perro`
@@ -34,6 +41,10 @@ CREATE TABLE IF NOT EXISTS `PeluqueriaHuellitas`.`Perro` (
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ;
+
+-- -----------------------------------------------------
+-- Ingreso de valores en Historial
+-- -----------------------------------------------------
 
 
 -- -----------------------------------------------------
@@ -54,5 +65,13 @@ CREATE TABLE IF NOT EXISTS `PeluqueriaHuellitas`.`Historial` (
     ON UPDATE NO ACTION)
 ;
 
+-- -----------------------------------------------------
+-- Ingreso de valores en Historial
+-- -----------------------------------------------------
+
+SELECT * FROM PeluqueriaHuellitas.Historial;
+INSERT INTO `PeluqueriaHuellitas`.`historial` (`ID_His`, `fecha_His`, `descripcion_His`, `Monto_His`, `Perro`) VALUES ('001', '22/02/2021', 'corte', '1500', '1');
+INSERT INTO `PeluqueriaHuellitas`.`historial` (`ID_His`, `fecha_His`, `descripcion_His`, `Monto_His`, `Perro`) VALUES ('002', '24/02/2021', 'corte', '1500', '2');
+INSERT INTO `PeluqueriaHuellitas`.`historial` (`ID_His`, `fecha_His`, `descripcion_His`, `Monto_His`, `Perro`) VALUES ('003', '17/01/2022', 'corte', '2000', '3');
 
 
