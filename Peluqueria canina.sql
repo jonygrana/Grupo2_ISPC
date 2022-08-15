@@ -1,81 +1,61 @@
--- -----------------------------------------------------
--- Schema PeluqueriaHuellitas
--- -----------------------------------------------------
-CREATE SCHEMA IF NOT EXISTS `PeluqueriaHuellitas` DEFAULT CHARACTER SET utf8 ;
-USE `PeluqueriaHuellitas` ;
+/*Crear una BD para Peluqueria Canina*/
 
--- -----------------------------------------------------
--- Table `PeluqueriaHuellitas`.`Dueno`
--- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `PeluqueriaHuellitas`.`Dueno` (
-  `DNI_Du` INT NOT NULL,
-  `nombre_Du` VARCHAR(30) NOT NULL,
-  `apellido_Du` VARCHAR(50) NOT NULL,
-  `telefono_Du` BIGINT(30) NOT NULL,
-  `direccion_Du` LONGTEXT NULL,
-  PRIMARY KEY (`DNI_Du`))
-;
--- -----------------------------------------------------
--- Ingreso de valores en Dueno
--- -----------------------------------------------------
+CREATE DATABASE `Huellitas` ;
+USE Huellitas;
 
-SELECT * FROM PeluqueriaHuellitas.Dueno;
-INSERT INTO `PeluqueriaHuellitas`.`Dueno` (`DNI_Du`, `nombre_Du`, `apellido_Du`, `telefono_Du`, `direccion_Du`) VALUES ('33617400', 'Emilia', 'Garzon', '3511', 'sarmiento 383');
-INSERT INTO `PeluqueriaHuellitas`.`Dueno` (`DNI_Du`, `nombre_Du`, `apellido_Du`, `telefono_Du`, `direccion_Du`) VALUES ('33617401', 'Regina', 'Suarez', '3512', 'rivadavia 56');
-INSERT INTO `PeluqueriaHuellitas`.`Dueno` (`DNI_Du`, `nombre_Du`, `apellido_Du`, `telefono_Du`, `direccion_Du`) VALUES ('33617402', 'Pablo', 'Diaz', '3513', 'nores martinez 2766');
+/*Agregar Tabla Dueno con clave primaria*/
 
--- -----------------------------------------------------
--- Table `PeluqueriaHuellitas`.`Perro`
--- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `PeluqueriaHuellitas`.`Perro` (
-  `ID_Perro` INT NOT NULL AUTO_INCREMENT,
-  `nombre_Perro` VARCHAR(50) NOT NULL,
-  `fecha_NacPerro` DATE NOT NULL,
-  `sexo_Perro` VARCHAR(6) NOT NULL,
-  `DNI_Dueno` INT NULL,
-  PRIMARY KEY (`ID_Perro`),
-  INDEX `DNI_Dueno_idx` (`DNI_Dueno` ASC) VISIBLE,
-  CONSTRAINT `DNI_Dueno`
-    FOREIGN KEY (`DNI_Dueno`)
-    REFERENCES `PeluqueriaHuellitas`.`Dueno` (`DNI_Du`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
-;
+CREATE TABLE Dueno
+(DNI INT  NOT NULL,
+Nombre VARCHAR (30) NOT NULL,
+Apellido VARCHAR (20) NOT NULL,
+Telefono BIGINT NULL,
+Direccion VARCHAR (50) NULL,
+PRIMARY KEY (DNI));
 
--- -----------------------------------------------------
--- Ingreso de valores en Perro
--- -----------------------------------------------------
-SELECT * FROM PeluqueriaHuellitas.Perro;
+/*Agregar Tabla Perro con clave primaria y foranea*/
 
-INSERT INTO `PeluqueriaHuellitas`.`Perro` (`ID_Perro`, `nombre_Perro`, `fecha_NacPerro`, `sexo_Perro`, `DNI_Dueno`) VALUES ('1', 'Gilberto', '13/03/2021', 'macho', '33617400');
-INSERT INTO `PeluqueriaHuellitas`.`Perro` (`ID_Perro`, `nombre_Perro`, `fecha_NacPerro`, `sexo_Perro`, `DNI_Dueno`) VALUES ('2', 'Bruno', '30/01/2015', 'macho', '33617401');
-INSERT INTO `PeluqueriaHuellitas`.`Perro` (`ID_Perro`, `nombre_Perro`, `fecha_NacPerro`, `sexo_Perro`, `DNI_Dueno`) VALUES ('3', 'Antonia', '26/06/2017', 'hembra', '33617402');
+CREATE TABLE Perro
+(ID_Perro INT  NOT NULL AUTO_INCREMENT,
+Nombre_Pe VARCHAR (20) NOT NULL,
+FechaNac_Pe DATE NULL,
+Sexo_Pe VARCHAR (6),
+DNI_Dueno INT NOT NULL,
+PRIMARY KEY (Nombre_Pe),
+CONSTRAINT FOREIGN KEY (DNI_dueno) REFERENCES Dueno (DNI)
+);
 
--- -----------------------------------------------------
--- Table `PeluqueriaHuellitas`.`Historial`
--- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `PeluqueriaHuellitas`.`Historial` (
-  `ID_His` INT NOT NULL AUTO_INCREMENT,
-  `fecha_His` DATE NOT NULL,
-  `descripcion_His` LONGTEXT NULL,
-  `Monto_His` FLOAT NULL,
-  `Perro` INT NOT NULL,
-  PRIMARY KEY (`ID_His`),
-  INDEX `Perro_idx` (`Perro` ASC) VISIBLE,
-  CONSTRAINT `Perro`
-    FOREIGN KEY (`Perro`)
-    REFERENCES `PeluqueriaHuellitas`.`Perro` (`ID_Perro`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
-;
+/*Agregar Tabla Historial con clave primaria y foranea*/
 
--- -----------------------------------------------------
--- Ingreso de valores en Historial
--- -----------------------------------------------------
+CREATE TABLE Historial
+(ID_Historial INT NOT NULL AUTO_INCREMENT,
+Fecha_Historial DATE NOT NULL,
+Perro INT NOT NULL AUTO_INCREMENT,
+Servicio VARCHAR (10) NULL,
+Monto FLOAT,
+PRIMARY KEY (ID_Historial),
+CONSTRAINT FOREIGN KEY (Perro) REFERENCES Perro (ID_Perro)
+);
 
-SELECT * FROM PeluqueriaHuellitas.Historial;
-INSERT INTO `PeluqueriaHuellitas`.`historial` (`ID_His`, `fecha_His`, `descripcion_His`, `Monto_His`, `Perro`) VALUES ('001', '22/02/2021', 'corte', '1500', '1');
-INSERT INTO `PeluqueriaHuellitas`.`historial` (`ID_His`, `fecha_His`, `descripcion_His`, `Monto_His`, `Perro`) VALUES ('002', '24/02/2021', 'corte', '1500', '2');
-INSERT INTO `PeluqueriaHuellitas`.`historial` (`ID_His`, `fecha_His`, `descripcion_His`, `Monto_His`, `Perro`) VALUES ('003', '17/01/2022', 'corte', '2000', '3');
+/*Agregar datos a las tablas*/
 
+USE Huellitas;
+ 
+/*En Tabla Dueno*/
+INSERT INTO Dueno (DNI,Nombre,Apellido,Telefono,Direccion) VALUES (33617400,"Emilia","Garzon",0351145678755,"Sarmiento 383");
+INSERT INTO Dueno (DNI,Nombre,Apellido,Telefono,Direccion) VALUES (33617401,"Regina","Gimenez",0351245678755,"Rivadavia 56");
+INSERT INTO Dueno (DNI,Nombre,Apellido,Telefono,Direccion) VALUES (33617402,"Pablo","Suarez",0351345678755,"Nores Martinez 2766");
 
+/*En Tabla Perro*/
+INSERT INTO Perro (ID_Perro,Nombre_Pe,FechaNac_Pe,Sexo_Pe,DNI_Dueno) VALUES (001,"Gilbert","2021-03-13","macho",33617400);
+INSERT INTO Perro (ID_Perro,Nombre_Pe,FechaNac_Pe,Sexo_Pe,DNI_Dueno) VALUES (002,"Bruno","2015-01-30","macho",33617401);
+INSERT INTO Perro (ID_Perro,Nombre_Pe,FechaNac_Pe,Sexo_Pe,DNI_Dueno) VALUES (003,"Antonia","2017-06-26","hembra",33617402);
+
+/*En Tabla Historial*/
+INSERT INTO Historial (ID_Historial,Fecha_Historial,Perro,Servicio,Monto) VALUES (1,"2021-06-04",001,"Completo",1000);
+INSERT INTO Historial (ID_Historial,Fecha_Historial,Perro,Servicio,Monto) VALUES (2,"2021-08-01",002,"Corte",800);
+INSERT INTO Historial (ID_Historial,Fecha_Historial,Perro,Servicio,Monto) VALUES (3,"2022-01-10",003,"Baño",800);
+
+/*Consultar todos los perros que asistieron a la peluqueria en 2022*/
+
+SELECT * FROM Historial WHERE Perro BETWEEN 2022-01-01 AND 2022-12-31;
